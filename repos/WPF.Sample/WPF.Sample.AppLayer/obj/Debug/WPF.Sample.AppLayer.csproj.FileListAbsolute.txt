@@ -1,0 +1,14 @@
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\WPF.Sample.AppLayer.dll
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\WPF.Sample.AppLayer.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\Common.Library.dll
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\WPF.Sample.DataLayer.dll
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\EntityFramework.dll
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\Common.Library.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\WPF.Sample.DataLayer.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\bin\Debug\EntityFramework.xml
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\obj\Debug\WPF.Sample.AppLayer.csprojAssemblyReference.cache
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\obj\Debug\WPF.Sample.AppLayer.g.resources
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\obj\Debug\WPF.Sample.AppLayer.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\obj\Debug\WPF.Sample.AppLayer.csproj.CopyComplete
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\obj\Debug\WPF.Sample.AppLayer.dll
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.AppLayer\obj\Debug\WPF.Sample.AppLayer.pdb

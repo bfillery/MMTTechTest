@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="WPFDataBinding.ProductControls.ProductListControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style TargetType="TextBlock" x:Key="productName">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+        <Style TargetType="Border" x:Key="productInfo">
+            <Setter Property="BorderBrush" Value="Gray" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Padding" Value="6" />
+            <Setter Property="MinWidth" Value="400" /> 
+        </Style>
+        <Style TargetType="StackPanel" x:Key="labelInfo">
+            <Setter Property="Margin" Value="2" />
+            <Setter Property="Orientation" Value="Vertical" />
+        </Style>
+    </UserControl.Resources>
+    
+    
+    <Grid>
+        <ListBox SelectedItem="{Binding Path=Entity}"
+                  ItemsSource="{Binding Path=DataCollection}">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Vertical" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border Style="{StaticResource productInfo}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />                                
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0"
+                                       Grid.Column="0"
+                                       Style="{StaticResource productName}"
+                                       Text="{Binding Path=Name}" />
+                            <StackPanel Grid.Row="1"
+                                        Grid.Column="0"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Product Number:" />
+                                <TextBlock Text="{Binding Path=ProductNumber}" />                                
+                            </StackPanel>
+                            <StackPanel Grid.Row="1"
+                                        Grid.Column="1"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Colour: " />
+                                <TextBlock Text="{Binding Path=Color}" />
+                            </StackPanel>
+                            <StackPanel Grid.Row="2"
+                                        Grid.Column="0"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Cost: " />
+                                <TextBlock Text="{Binding Path=StandardCost, StringFormat=c}" />
+                            </StackPanel>
+                            <StackPanel Grid.Row="2"
+                                        Grid.Column="1"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Size: " />
+                                <TextBlock Text="{Binding Path=Size}" />
+                            </StackPanel>
+                            <StackPanel Grid.Row="3"
+                                        Grid.Column="0"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Price: " />
+                                <TextBlock Text="{Binding Path=ListPrice, StringFormat=c}" />
+                            </StackPanel>
+                            <StackPanel Grid.Row="3"
+                                        Grid.Column="1"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Weight: " />
+                                <TextBlock Text="{Binding Path=Weight}" />
+                            </StackPanel>
+                            <StackPanel Grid.Row="4"
+                                        Grid.Column="0"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Sell Start: " />
+                                <TextBlock Text="{Binding Path=SellStatDate, StringFormat=d}" />
+                            </StackPanel>
+                            <StackPanel Grid.Row="4"
+                                        Grid.Column="1"
+                                        Style="{StaticResource labelInfo}">
+                                <TextBlock Text="Sell End: " />
+                                <TextBlock Text="{Binding Path=SellEndDate, StringFormat=d}" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>                    
+                                             
+                </DataTemplate>     
+            </ListBox.ItemTemplate>
+         </ListBox>
+        
+    </Grid>
+</UserControl>

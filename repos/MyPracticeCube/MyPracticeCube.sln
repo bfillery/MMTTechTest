@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MyPracticeCube", "MyPracticeCube.dwproj", "{0113919E-67A6-49E5-BB68-A14ABCAEABC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0113919E-67A6-49E5-BB68-A14ABCAEABC9}.Development|Default.ActiveCfg = Development
+		{0113919E-67A6-49E5-BB68-A14ABCAEABC9}.Development|Default.Build.0 = Development
+		{0113919E-67A6-49E5-BB68-A14ABCAEABC9}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBF47F17-69AB-45DF-97AE-F73860466216}
+	EndGlobalSection
+EndGlobal

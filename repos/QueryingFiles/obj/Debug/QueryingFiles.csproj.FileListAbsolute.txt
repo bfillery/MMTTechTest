@@ -1,0 +1,6 @@
+C:\Users\Bruce\source\repos\QueryingFiles\obj\Debug\QueryingFiles.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\QueryingFiles\bin\Debug\QueryingFiles.exe.config
+C:\Users\Bruce\source\repos\QueryingFiles\bin\Debug\QueryingFiles.exe
+C:\Users\Bruce\source\repos\QueryingFiles\bin\Debug\QueryingFiles.pdb
+C:\Users\Bruce\source\repos\QueryingFiles\obj\Debug\QueryingFiles.exe
+C:\Users\Bruce\source\repos\QueryingFiles\obj\Debug\QueryingFiles.pdb

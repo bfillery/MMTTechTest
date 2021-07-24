@@ -1,0 +1,16 @@
+C:\Users\Bruce\source\repos\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.csprojAssemblyReference.cache
+C:\Users\Bruce\source\repos\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.AssemblyInfoInputs.cache
+C:\Users\Bruce\source\repos\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.AssemblyInfo.cs
+C:\Users\Bruce\source\repos\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.csprojAssemblyReference.cache
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.AssemblyInfoInputs.cache
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.AssemblyInfo.cs
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\bin\Debug\netstandard2.0\Footsteps.Domain.deps.json
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\bin\Debug\netstandard2.0\Footsteps.Domain.dll
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\bin\Debug\netstandard2.0\Footsteps.Domain.pdb
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\bin\Debug\netstandard2.0\System.Device.dll
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\bin\Debug\netstandard2.0\System.Device.xml
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.csproj.CopyComplete
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.dll
+C:\Users\Bruce\source\repos\Footsteps\Footsteps.Domain\obj\Debug\netstandard2.0\Footsteps.Domain.pdb

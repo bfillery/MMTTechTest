@@ -1,0 +1,9 @@
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\bin\Debug\DemoDataTransferObjects.dll
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\bin\Debug\DemoDataTransferObjects.pdb
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\bin\Debug\Common.dll
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\bin\Debug\Common.pdb
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\obj\Debug\DemoDataTransferObjects.csprojAssemblyReference.cache
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\obj\Debug\DemoDataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\obj\Debug\DemoDataTransferObjects.csproj.CopyComplete
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\obj\Debug\DemoDataTransferObjects.dll
+C:\Users\Bruce\source\repos\DataTransferObject_Demo\DemoDataTransferObjects\obj\Debug\DemoDataTransferObjects.pdb

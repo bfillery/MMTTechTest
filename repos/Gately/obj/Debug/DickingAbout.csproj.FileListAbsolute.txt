@@ -1,0 +1,7 @@
+C:\Users\Bruce\source\repos\DickingAbout\bin\Debug\DickingAbout.exe.config
+C:\Users\Bruce\source\repos\DickingAbout\bin\Debug\DickingAbout.exe
+C:\Users\Bruce\source\repos\DickingAbout\bin\Debug\DickingAbout.pdb
+C:\Users\Bruce\source\repos\DickingAbout\obj\Debug\DickingAbout.csprojAssemblyReference.cache
+C:\Users\Bruce\source\repos\DickingAbout\obj\Debug\DickingAbout.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\DickingAbout\obj\Debug\DickingAbout.exe
+C:\Users\Bruce\source\repos\DickingAbout\obj\Debug\DickingAbout.pdb

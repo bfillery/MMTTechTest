@@ -1,0 +1,6 @@
+C:\Users\Bruce\source\repos\Sundown.Domain\bin\Debug\Sundown.Domain.dll
+C:\Users\Bruce\source\repos\Sundown.Domain\bin\Debug\Sundown.Domain.pdb
+C:\Users\Bruce\source\repos\Sundown.Domain\obj\Debug\Sundown.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\source\repos\Sundown.Domain\obj\Debug\Sundown.Domain.dll
+C:\Users\Bruce\source\repos\Sundown.Domain\obj\Debug\Sundown.Domain.pdb
+C:\Users\Bruce\source\repos\Sundown.Domain\obj\Debug\Sundown.Domain.csprojAssemblyReference.cache
