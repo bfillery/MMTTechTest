@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using MMT.Models;
 using MMT.Models.DB;
 using MMT.Repositories;
+using MMT.Repositories.Interfaces;
 using System;
 using System.Threading.Tasks;
 
@@ -14,6 +15,7 @@ namespace MMT.Controllers
     {
         private readonly IMMTContext _context;
         private readonly IConfiguration _configuration;
+        private readonly ICustomerRepository _custRepo;
         public OrderController(IConfiguration configuration, IMMTContext context)
         {
             _configuration = configuration;
