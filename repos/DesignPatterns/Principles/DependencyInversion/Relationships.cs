@@ -7,12 +7,12 @@ namespace DesignPatterns.Principles.DependencyInversion
     //low level
 
     //Now that Relationship implements an interface rather than exposing 
-    //the data store, it can change teh data store without affecting anything
+    //the data store, it can change the data store without affecting anything
     //that consumes this class.
     public class Relationships :IRelationshipBrowser
     {
-        private List<(Person, Relationship, Person)> relations
-            = new List<(Person, Relationship, Person)>();
+        private readonly List<(Person, Relationship, Person)> relations
+            = new();
 
         public void AddParentAndChild(Person parent, Person child)
         {

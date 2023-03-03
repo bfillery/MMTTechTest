@@ -1,4 +1,3 @@
-C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\MainWindow.baml
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\App.baml
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\MainWindow.g.cs
@@ -38,3 +37,5 @@ C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.csproj.Co
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.csproj.CopyComplete
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.exe
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.csproj.AssemblyReference.cache
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample\obj\Debug\WPF.Sample.csproj.SuggestedBindingRedirects.cache

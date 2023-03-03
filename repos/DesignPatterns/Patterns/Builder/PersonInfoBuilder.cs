@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Patterns.Builder
+﻿namespace DesignPatterns.Patterns.Builder
 {
     public class PersonInfoBuilder<SELF> 
         : PersonBuilder
@@ -13,7 +7,7 @@ namespace DesignPatterns.Patterns.Builder
 
         //protected not private as we're using inheritance...
 
-        protected Person person = new Person();
+        protected new Person person = new();
 
         public SELF Called(string name)
         {

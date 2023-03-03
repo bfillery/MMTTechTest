@@ -5,22 +5,13 @@ namespace DesignPatterns.Principles.InterfaceSegregation
 {
     public class MultiFunctionDevice : IMultiFunctionDevice
     {
-        private IPrinter printer;
-        private IScanner scanner;
+        private readonly IPrinter printer;
+        private readonly IScanner scanner;
 
         public MultiFunctionDevice(IPrinter printer, IScanner scanner)
         {
-            if (printer == null)
-            {
-                throw new ArgumentNullException(paramName: nameof(printer));
-            }
-
-            if (scanner == null)
-            {
-                throw new ArgumentNullException(paramName: nameof(scanner));
-            }
-            this.printer = printer;
-            this.scanner = scanner;
+            this.printer = printer ?? throw new ArgumentNullException(paramName: nameof(printer));
+            this.scanner = scanner ?? throw new ArgumentNullException(paramName: nameof(scanner));
         }
 
         //here we are DELEGATING the calls to the inner printer/scanner objects: DECORATOR pattern

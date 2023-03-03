@@ -13,11 +13,7 @@ namespace DesignPatterns.Principles.OpenClosed
 
         public Product(string name, Color color, Size size)
         {
-            if(name== null)
-            {
-                throw new ArgumentNullException(paramName: nameof(name));
-            }
-            this.Name = name;
+            this.Name = name ?? throw new ArgumentNullException(paramName: nameof(name));
             this.color = color;
             this.size = size;
         }

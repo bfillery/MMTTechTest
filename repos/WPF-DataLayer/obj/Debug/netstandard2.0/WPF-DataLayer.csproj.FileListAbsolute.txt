@@ -6,4 +6,5 @@ C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer
 C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer.csproj.CoreCompileInputs.cache
 C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer.dll
 C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer.pdb
-C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer.csprojAssemblyReference.cache
+C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer.csproj.AssemblyReference.cache
+C:\Users\Bruce\source\repos\WPF-DataLayer\obj\Debug\netstandard2.0\WPF-DataLayer.GeneratedMSBuildEditorConfig.editorconfig

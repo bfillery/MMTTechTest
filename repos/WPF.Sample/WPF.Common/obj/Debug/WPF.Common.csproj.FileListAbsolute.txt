@@ -2,7 +2,6 @@ C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\bin\Debug\WPF.Common.dll
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\bin\Debug\WPF.Common.pdb
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\bin\Debug\Common.Library.dll
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\bin\Debug\Common.Library.pdb
-C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\Resources\StandardStyles.baml
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common_MarkupCompile.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.g.resources
@@ -12,3 +11,4 @@ C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.csproj.Co
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.csproj.CopyComplete
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.dll
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Common\obj\Debug\WPF.Common.csproj.AssemblyReference.cache

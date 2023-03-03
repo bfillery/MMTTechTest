@@ -16,3 +16,21 @@ C:\Users\Bruce\source\repos\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTest
 C:\Users\Bruce\source\repos\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.csproj.CopyComplete
 C:\Users\Bruce\source\repos\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.dll
 C:\Users\Bruce\source\repos\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\NUnit3.TestAdapter.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\NUnit3.TestAdapter.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\nunit.engine.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\nunit.engine.api.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\nunit.engine.core.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\HelloWorld.UnitTests.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\HelloWorld.UnitTests.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\HelloWorld.exe
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\nunit.framework.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\HelloWorld.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\HelloWorld.exe.config
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\nunit.framework.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\bin\Release\nunit.framework.xml
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.csprojAssemblyReference.cache
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.csproj.CopyComplete
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld.UnitTests\obj\Release\HelloWorld.UnitTests.pdb

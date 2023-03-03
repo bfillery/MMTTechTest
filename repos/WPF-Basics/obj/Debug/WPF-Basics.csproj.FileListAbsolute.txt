@@ -3,7 +3,6 @@ C:\Users\Bruce\source\repos\WPF-Basics\bin\Debug\WPF-Basics.exe
 C:\Users\Bruce\source\repos\WPF-Basics\bin\Debug\WPF-Basics.pdb
 C:\Users\Bruce\source\repos\WPF-Basics\bin\Debug\WPF-DataLayer.dll
 C:\Users\Bruce\source\repos\WPF-Basics\bin\Debug\WPF-DataLayer.pdb
-C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\WPF-Basics.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\Resources\StandardStyles.baml
 C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\Resources\UserControlStyles.baml
 C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\MainWindow.g.cs
@@ -26,3 +25,4 @@ C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\WPF-Basics.csproj.CoreCompileIn
 C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\WPF-Basics.csproj.CopyComplete
 C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\WPF-Basics.exe
 C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\WPF-Basics.pdb
+C:\Users\Bruce\source\repos\WPF-Basics\obj\Debug\WPF-Basics.csproj.AssemblyReference.cache

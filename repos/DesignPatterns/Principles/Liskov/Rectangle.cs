@@ -25,8 +25,8 @@
         {
             //public new int Width
             //if we use the "new" keyword here, so the inheriting class field replaces thebase class
-            //we violate Liskov - try and say a Rectangle is a square and th earea calculation fails
-            //BUT if you make the base class filed virtual, and override it in the ineriting class, 
+            //we violate Liskov - try and say a Rectangle is a square and the area calculation fails
+            //BUT if you make the base class field virtual, and override it in the inheriting class, 
             //the code you write in the inheriting class is what gets called
             public override int Width
             {

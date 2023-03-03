@@ -5,7 +5,7 @@ namespace DesignPatterns.Principles.OpenClosed
 {
     public class ColorSpecfication : ISpecification<Product>
     {
-        private Color color;
+        private readonly Color color;
 
         public ColorSpecfication(Color color)
         {

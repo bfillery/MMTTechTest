@@ -3,8 +3,8 @@ C:\Users\Bruce\source\repos\Sundown.Repository\bin\Debug\Sundown.Repository.exe
 C:\Users\Bruce\source\repos\Sundown.Repository\bin\Debug\Sundown.Repository.pdb
 C:\Users\Bruce\source\repos\Sundown.Repository\bin\Debug\Sundown.Domain.dll
 C:\Users\Bruce\source\repos\Sundown.Repository\bin\Debug\Sundown.Domain.pdb
-C:\Users\Bruce\source\repos\Sundown.Repository\obj\Debug\Sundown.Repository.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\Sundown.Repository\obj\Debug\Sundown.Repository.csproj.CoreCompileInputs.cache
 C:\Users\Bruce\source\repos\Sundown.Repository\obj\Debug\Sundown.Repository.csproj.CopyComplete
 C:\Users\Bruce\source\repos\Sundown.Repository\obj\Debug\Sundown.Repository.exe
 C:\Users\Bruce\source\repos\Sundown.Repository\obj\Debug\Sundown.Repository.pdb
+C:\Users\Bruce\source\repos\Sundown.Repository\obj\Debug\Sundown.Repository.csproj.AssemblyReference.cache

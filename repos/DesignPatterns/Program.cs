@@ -3,7 +3,6 @@ using DesignPatterns.Principles.DependencyInversion;
 using DesignPatterns.Principles.Liskov;
 using DesignPatterns.Principles.OpenClosed;
 using DesignPatterns.Principles.SingleResponsibility;
-using System.Text;
 using Person = DesignPatterns.Patterns.Builder.Person;
 
 namespace DesignPatterns

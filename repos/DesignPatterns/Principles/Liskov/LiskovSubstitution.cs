@@ -13,7 +13,7 @@ namespace DesignPatterns.Principles.Liskov
 
             static int Area(Rectangle r) => r.Width * r.Height;
 
-            Rectangle rc = new Rectangle(2,3);
+            Rectangle rc = new (2,3);
 
             //Square sq = new Square();
             Rectangle sq = new Square(); //this works because we made hieght and width virtual in base class (rectange) nd overrode them in Square

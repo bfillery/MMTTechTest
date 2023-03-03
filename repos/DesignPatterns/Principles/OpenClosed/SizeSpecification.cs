@@ -5,7 +5,7 @@ namespace DesignPatterns.Principles.OpenClosed
 {
     public class SizeSpecification : ISpecification<Product>
     {
-        private Size size;
+        private readonly Size size;
 
         public SizeSpecification(Size size)
         {

@@ -10,8 +10,8 @@ C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\bin\Debug\WPF.S
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\bin\Debug\WPF.Sample.DataLayer.pdb
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\bin\Debug\EntityFramework.xml
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\obj\Debug\WPF.Sample.ViewModelLayer.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\obj\Debug\WPF.Sample.ViewModelLayer.csproj.CoreCompileInputs.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\obj\Debug\WPF.Sample.ViewModelLayer.csproj.CopyComplete
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\obj\Debug\WPF.Sample.ViewModelLayer.dll
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\obj\Debug\WPF.Sample.ViewModelLayer.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.ViewModelLayer\obj\Debug\WPF.Sample.ViewModelLayer.csproj.AssemblyReference.cache

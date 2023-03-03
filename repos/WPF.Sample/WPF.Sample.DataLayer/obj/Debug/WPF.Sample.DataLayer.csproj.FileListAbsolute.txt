@@ -6,9 +6,9 @@ C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\bin\Debug\EntityFram
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\bin\Debug\Common.Library.pdb
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\bin\Debug\EntityFramework.xml
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.g.resources
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.csproj.CoreCompileInputs.cache
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.csproj.CopyComplete
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.dll
 C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.pdb
+C:\Users\Bruce\source\repos\WPF.Sample\WPF.Sample.DataLayer\obj\Debug\WPF.Sample.DataLayer.csproj.AssemblyReference.cache

@@ -21,8 +21,8 @@ C:\Users\Bruce\source\repos\Sundown.API\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Bruce\source\repos\Sundown.API\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Bruce\source\repos\Sundown.API\bin\Debug\System.Web.Http.xml
 C:\Users\Bruce\source\repos\Sundown.API\bin\Debug\System.Web.Http.Owin.xml
-C:\Users\Bruce\source\repos\Sundown.API\obj\Debug\Sundown.API.csprojAssemblyReference.cache
 C:\Users\Bruce\source\repos\Sundown.API\obj\Debug\Sundown.API.csproj.CoreCompileInputs.cache
 C:\Users\Bruce\source\repos\Sundown.API\obj\Debug\Sundown.API.csproj.CopyComplete
 C:\Users\Bruce\source\repos\Sundown.API\obj\Debug\Sundown.API.exe
 C:\Users\Bruce\source\repos\Sundown.API\obj\Debug\Sundown.API.pdb
+C:\Users\Bruce\source\repos\Sundown.API\obj\Debug\Sundown.API.csproj.AssemblyReference.cache

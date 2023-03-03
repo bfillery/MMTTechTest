@@ -16,8 +16,8 @@ namespace DesignPatterns.Principles.DependencyInversion
 
 
         //prior to introducing the IRelationshipBrowser interface
-        //we expose teh low-level class data store, which comits us to a 
-        //particular way of storing teh data and stops the low level class from changing
+        //we expose the low-level class data store, which comits us to a 
+        //particular way of storing the data and stops the low level class from changing
 
         //public Research(Relationships relationships)
         //{

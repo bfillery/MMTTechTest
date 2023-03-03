@@ -14,3 +14,18 @@ C:\Users\Bruce\source\repos\HelloWorld\obj\Release\HelloWorld.csproj.CoreCompile
 C:\Users\Bruce\source\repos\HelloWorld\obj\Release\HelloWorld.csproj.CopyComplete
 C:\Users\Bruce\source\repos\HelloWorld\obj\Release\HelloWorld.exe
 C:\Users\Bruce\source\repos\HelloWorld\obj\Release\HelloWorld.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\HelloWorld.exe.config
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\HelloWorld.exe
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\HelloWorld.pdb
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Security.AccessControl.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Security.Permissions.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Security.AccessControl.xml
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Security.Permissions.xml
+C:\Users\Bruce\Desktop\New folder\HelloWorld\bin\Release\System.Security.Principal.Windows.xml
+C:\Users\Bruce\Desktop\New folder\HelloWorld\obj\Release\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Bruce\Desktop\New folder\HelloWorld\obj\Release\HelloWorld.csproj.CopyComplete
+C:\Users\Bruce\Desktop\New folder\HelloWorld\obj\Release\HelloWorld.exe
+C:\Users\Bruce\Desktop\New folder\HelloWorld\obj\Release\HelloWorld.pdb
