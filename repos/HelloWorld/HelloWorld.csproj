@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{57C55369-1F38-4B96-B2B2-53678851A145}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HelloWorld</RootNamespace>
+    <AssemblyName>HelloWorld</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>HelloWorld.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.5.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Permissions.5.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityEmailnotification.cs" />
+    <Compile Include="ActivityEncoding.cs" />
+    <Compile Include="ActivityUpdateStatus.cs" />
+    <Compile Include="ActivityUploadToCloud.cs" />
+    <Compile Include="ConsoleHelper.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="Fundamentals\Circle.cs" />
+    <Compile Include="Fundamentals\Customer.cs" />
+    <Compile Include="Fundamentals\DbCommand.cs" />
+    <Compile Include="Fundamentals\DbConnection.cs" />
+    <Compile Include="Fundamentals\DBMigrator.cs" />
+    <Compile Include="Fundamentals\Demerits.cs" />
+    <Compile Include="Fundamentals\HttpCookie.cs" />
+    <Compile Include="Fundamentals\Installer.cs" />
+    <Compile Include="Fundamentals\Logger.cs" />
+    <Compile Include="Fundamentals\NewText.cs" />
+    <Compile Include="Fundamentals\Orientation.cs" />
+    <Compile Include="Fundamentals\Person.cs" />
+    <Compile Include="Fundamentals\Post.cs" />
+    <Compile Include="Fundamentals\PresentationObject.cs" />
+    <Compile Include="Fundamentals\Rectangle.cs" />
+    <Compile Include="Fundamentals\Shape.cs" />
+    <Compile Include="Fundamentals\SqlDbConnection.cs" />
+    <Compile Include="Fundamentals\Stack.cs" />
+    <Compile Include="Fundamentals\Stopwatch.cs" />
+    <Compile Include="Fundamentals\Text.cs" />
+    <Compile Include="Fundamentals\Validity.cs" />
+    <Compile Include="Fundamentals\Workflow.cs" />
+    <Compile Include="Interfaces\IActivity.cs" />
+    <Compile Include="NumberHelper.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="bin\Debug\HelloWorld.exe.config" />
+    <None Include="bin\Release\HelloWorld.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\HelloWorld.csproj.CopyComplete" />
+    <None Include="obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\HelloWorld.csprojAssemblyReference.cache" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Release\HelloWorld.csproj.CopyComplete" />
+    <None Include="obj\Release\HelloWorld.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\HelloWorld.csprojAssemblyReference.cache" />
+    <None Include="packages.config" />
+    <None Include="packages\NUnit.3.12.0\.signature.p7s" />
+    <None Include="packages\NUnit.3.12.0\build\NUnit.props" />
+    <None Include="packages\NUnit.3.12.0\CHANGES.md" />
+    <None Include="packages\NUnit.3.12.0\NUnit.3.12.0.nupkg" />
+    <None Include="packages\NUnit3TestAdapter.3.17.0\.signature.p7s" />
+    <None Include="packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3TestAdapter.props" />
+    <None Include="packages\NUnit3TestAdapter.3.17.0\build\netcoreapp2.1\NUnit3TestAdapter.props" />
+    <None Include="packages\NUnit3TestAdapter.3.17.0\NUnit3TestAdapter.3.17.0.nupkg" />
+    <None Include="packages\System.Configuration.ConfigurationManager.5.0.0\.signature.p7s" />
+    <None Include="packages\System.Configuration.ConfigurationManager.5.0.0\System.Configuration.ConfigurationManager.5.0.0.nupkg" />
+    <None Include="packages\System.Security.AccessControl.5.0.0\.signature.p7s" />
+    <None Include="packages\System.Security.AccessControl.5.0.0\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Security.AccessControl.5.0.0\ref\uap10.0.16299\_._" />
+    <None Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Security.AccessControl.5.0.0\System.Security.AccessControl.5.0.0.nupkg" />
+    <None Include="packages\System.Security.Permissions.5.0.0\.signature.p7s" />
+    <None Include="packages\System.Security.Permissions.5.0.0\System.Security.Permissions.5.0.0.nupkg" />
+    <None Include="packages\System.Security.Principal.Windows.5.0.0\.signature.p7s" />
+    <None Include="packages\System.Security.Principal.Windows.5.0.0\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Security.Principal.Windows.5.0.0\ref\uap10.0.16299\_._" />
+    <None Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\uap10.0.16299\_._" />
+    <None Include="packages\System.Security.Principal.Windows.5.0.0\System.Security.Principal.Windows.5.0.0.nupkg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\HelloWorld.exe" />
+    <Content Include="bin\Debug\HelloWorld.pdb" />
+    <Content Include="bin\Debug\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="bin\Debug\System.Configuration.ConfigurationManager.xml" />
+    <Content Include="bin\Debug\System.Security.AccessControl.dll" />
+    <Content Include="bin\Debug\System.Security.AccessControl.xml" />
+    <Content Include="bin\Debug\System.Security.Permissions.dll" />
+    <Content Include="bin\Debug\System.Security.Permissions.xml" />
+    <Content Include="bin\Debug\System.Security.Principal.Windows.dll" />
+    <Content Include="bin\Debug\System.Security.Principal.Windows.xml" />
+    <Content Include="bin\Release\HelloWorld.exe" />
+    <Content Include="bin\Release\HelloWorld.pdb" />
+    <Content Include="bin\Release\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="bin\Release\System.Configuration.ConfigurationManager.xml" />
+    <Content Include="bin\Release\System.Security.AccessControl.dll" />
+    <Content Include="bin\Release\System.Security.AccessControl.xml" />
+    <Content Include="bin\Release\System.Security.Permissions.dll" />
+    <Content Include="bin\Release\System.Security.Permissions.xml" />
+    <Content Include="bin\Release\System.Security.Principal.Windows.dll" />
+    <Content Include="bin\Release\System.Security.Principal.Windows.xml" />
+    <Content Include="obj\Debug\HelloWorld.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HelloWorld.exe" />
+    <Content Include="obj\Debug\HelloWorld.pdb" />
+    <Content Include="obj\Release\HelloWorld.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\HelloWorld.exe" />
+    <Content Include="obj\Release\HelloWorld.pdb" />
+    <Content Include="packages\NUnit.3.12.0\lib\net35\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.12.0\lib\net35\nunit.framework.pdb" />
+    <Content Include="packages\NUnit.3.12.0\lib\net35\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.12.0\lib\net40\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.12.0\lib\net40\nunit.framework.pdb" />
+    <Content Include="packages\NUnit.3.12.0\lib\net40\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.12.0\lib\net45\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.12.0\lib\net45\nunit.framework.pdb" />
+    <Content Include="packages\NUnit.3.12.0\lib\net45\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.pdb" />
+    <Content Include="packages\NUnit.3.12.0\lib\netstandard1.4\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.dll" />
+    <Content Include="packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.pdb" />
+    <Content Include="packages\NUnit.3.12.0\lib\netstandard2.0\nunit.framework.xml" />
+    <Content Include="packages\NUnit.3.12.0\LICENSE.txt" />
+    <Content Include="packages\NUnit.3.12.0\NOTICES.txt" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\net35\nunit.engine.api.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\net35\nunit.engine.core.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\net35\nunit.engine.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3.TestAdapter.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3.TestAdapter.pdb" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\netcoreapp2.1\nunit.engine.api.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\netcoreapp2.1\nunit.engine.core.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\netcoreapp2.1\nunit.engine.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\netcoreapp2.1\NUnit3.TestAdapter.dll" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\build\netcoreapp2.1\NUnit3.TestAdapter.pdb" />
+    <Content Include="packages\NUnit3TestAdapter.3.17.0\LICENSE.txt" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\Icon.png" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\lib\net461\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\lib\net461\System.Configuration.ConfigurationManager.xml" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\lib\netstandard2.0\System.Configuration.ConfigurationManager.xml" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\LICENSE.TXT" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\ref\net461\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\ref\net461\System.Configuration.ConfigurationManager.xml" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\ref\netstandard2.0\System.Configuration.ConfigurationManager.dll" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\ref\netstandard2.0\System.Configuration.ConfigurationManager.xml" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\useSharedDesignerContext.txt" />
+    <Content Include="packages\System.Configuration.ConfigurationManager.5.0.0\version.txt" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\Icon.png" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\lib\net46\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\lib\netstandard1.3\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\lib\netstandard2.0\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\lib\netstandard2.0\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\LICENSE.TXT" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\net461\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\net461\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\net46\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\de\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\es\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\fr\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\it\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\ja\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\ko\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\ru\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\zh-hans\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard1.3\zh-hant\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard2.0\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\ref\netstandard2.0\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\net461\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\net461\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\net46\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.xml" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\runtimes\win\lib\netstandard1.3\System.Security.AccessControl.dll" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\useSharedDesignerContext.txt" />
+    <Content Include="packages\System.Security.AccessControl.5.0.0\version.txt" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\Icon.png" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\net461\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\net461\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\net5.0\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\net5.0\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\netcoreapp3.0\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\netcoreapp3.0\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\netstandard2.0\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\lib\netstandard2.0\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\LICENSE.TXT" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\net461\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\net461\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\net5.0\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\net5.0\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\netcoreapp3.0\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\netcoreapp3.0\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\netstandard2.0\System.Security.Permissions.dll" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\ref\netstandard2.0\System.Security.Permissions.xml" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\useSharedDesignerContext.txt" />
+    <Content Include="packages\System.Security.Permissions.5.0.0\version.txt" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\Icon.png" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\lib\net46\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\lib\netstandard1.3\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\lib\netstandard2.0\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\lib\netstandard2.0\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\LICENSE.TXT" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\net461\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\net461\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\net46\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netcoreapp3.0\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netcoreapp3.0\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\de\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\es\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\fr\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\it\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\ja\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\ko\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\ru\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\zh-hans\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard1.3\zh-hant\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard2.0\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\ref\netstandard2.0\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\unix\lib\netcoreapp2.0\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\unix\lib\netcoreapp2.0\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\net461\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\net461\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\net46\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\netcoreapp2.0\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\netcoreapp2.0\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.xml" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\runtimes\win\lib\netstandard1.3\System.Security.Principal.Windows.dll" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\useSharedDesignerContext.txt" />
+    <Content Include="packages\System.Security.Principal.Windows.5.0.0\version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+    <Folder Include="TestResults\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
