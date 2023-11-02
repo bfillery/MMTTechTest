@@ -1,6 +1,0 @@
-C:\Users\Bruce\source\repos\WPF.Sample\Common.Library\bin\Debug\Common.Library.dll
-C:\Users\Bruce\source\repos\WPF.Sample\Common.Library\bin\Debug\Common.Library.pdb
-C:\Users\Bruce\source\repos\WPF.Sample\Common.Library\obj\Debug\Common.Library.csproj.CoreCompileInputs.cache
-C:\Users\Bruce\source\repos\WPF.Sample\Common.Library\obj\Debug\Common.Library.dll
-C:\Users\Bruce\source\repos\WPF.Sample\Common.Library\obj\Debug\Common.Library.pdb
-C:\Users\Bruce\source\repos\WPF.Sample\Common.Library\obj\Debug\Common.Library.csproj.AssemblyReference.cache

@@ -1,6 +1,0 @@
-C:\Users\Bruce\source\repos\DataTransferObject_Demo\Common\bin\Debug\Common.dll
-C:\Users\Bruce\source\repos\DataTransferObject_Demo\Common\bin\Debug\Common.pdb
-C:\Users\Bruce\source\repos\DataTransferObject_Demo\Common\obj\Debug\Common.csprojAssemblyReference.cache
-C:\Users\Bruce\source\repos\DataTransferObject_Demo\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
-C:\Users\Bruce\source\repos\DataTransferObject_Demo\Common\obj\Debug\Common.dll
-C:\Users\Bruce\source\repos\DataTransferObject_Demo\Common\obj\Debug\Common.pdb

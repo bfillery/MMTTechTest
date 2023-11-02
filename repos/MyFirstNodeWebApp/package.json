@@ -1,9 +1,0 @@
-{
-  "name": "my-first-node-web-app",
-  "version": "0.0.0",
-  "description": "MyFirstNodeWebApp",
-  "main": "server.js",
-  "author": {
-    "name": ""
-  }
-}

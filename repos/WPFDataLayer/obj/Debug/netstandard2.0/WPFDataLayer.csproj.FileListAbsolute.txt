@@ -1,9 +1,0 @@
-C:\Users\Bruce\source\repos\WPFDataLayer\bin\Debug\netstandard2.0\WPFDataLayer.deps.json
-C:\Users\Bruce\source\repos\WPFDataLayer\bin\Debug\netstandard2.0\WPFDataLayer.dll
-C:\Users\Bruce\source\repos\WPFDataLayer\bin\Debug\netstandard2.0\WPFDataLayer.pdb
-C:\Users\Bruce\source\repos\WPFDataLayer\obj\Debug\netstandard2.0\WPFDataLayer.AssemblyInfoInputs.cache
-C:\Users\Bruce\source\repos\WPFDataLayer\obj\Debug\netstandard2.0\WPFDataLayer.AssemblyInfo.cs
-C:\Users\Bruce\source\repos\WPFDataLayer\obj\Debug\netstandard2.0\WPFDataLayer.csproj.CoreCompileInputs.cache
-C:\Users\Bruce\source\repos\WPFDataLayer\obj\Debug\netstandard2.0\WPFDataLayer.dll
-C:\Users\Bruce\source\repos\WPFDataLayer\obj\Debug\netstandard2.0\WPFDataLayer.pdb
-C:\Users\Bruce\source\repos\WPFDataLayer\obj\Debug\netstandard2.0\WPFDataLayer.csprojAssemblyReference.cache

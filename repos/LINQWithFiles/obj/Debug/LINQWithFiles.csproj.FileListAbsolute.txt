@@ -1,7 +1,0 @@
-C:\Users\Bruce\source\repos\LINQWithFiles\bin\Debug\LINQWithFiles.exe.config
-C:\Users\Bruce\source\repos\LINQWithFiles\bin\Debug\LINQWithFiles.exe
-C:\Users\Bruce\source\repos\LINQWithFiles\bin\Debug\LINQWithFiles.pdb
-C:\Users\Bruce\source\repos\LINQWithFiles\obj\Debug\LINQWithFiles.csprojAssemblyReference.cache
-C:\Users\Bruce\source\repos\LINQWithFiles\obj\Debug\LINQWithFiles.csproj.CoreCompileInputs.cache
-C:\Users\Bruce\source\repos\LINQWithFiles\obj\Debug\LINQWithFiles.exe
-C:\Users\Bruce\source\repos\LINQWithFiles\obj\Debug\LINQWithFiles.pdb
