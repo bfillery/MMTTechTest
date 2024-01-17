@@ -3,6 +3,7 @@ using MMT.Models;
 using MMT.Models.DB;
 using MMT.Repositories;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 
 namespace MMT.UnitTests
 {
@@ -39,7 +40,7 @@ namespace MMT.UnitTests
             var result = custRepo.GetDeliveryAddress(custDTO);
 
             //assert
-            Assert.AreEqual(result,expected);
+            ClassicAssert.AreEqual(result,expected);
         }
 
         [Test]
@@ -63,7 +64,7 @@ namespace MMT.UnitTests
             var result = custRepo.GetDeliveryAddress(custDTO);
 
             //assert
-            Assert.AreEqual(result, expected);
+            ClassicAssert.AreEqual(result, expected);
         }
 
         [Test]
@@ -87,7 +88,7 @@ namespace MMT.UnitTests
             var result = custRepo.GetDeliveryAddress(custDTO);
 
             //assert
-            Assert.AreEqual(result, expected);
+            ClassicAssert.AreEqual(result, expected);
         }
 
         //public Task<CustomerDTO> GetCustomer(string Email);

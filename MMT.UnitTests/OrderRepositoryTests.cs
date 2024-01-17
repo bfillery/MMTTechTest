@@ -1,6 +1,7 @@
 using MMT.Models.DB;
 using MMT.Repositories;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 using System;
 
 namespace MMT.UnitTests
@@ -24,9 +25,9 @@ namespace MMT.UnitTests
 
             //act
             var result = orderRepo.OrderToOrderDTO(null);
-            
+
             //asert
-            Assert.IsTrue(result.OrderDate==System.DateTime.MinValue && result.OrderNumber==0 && result.OrderItems.Count==0);
+            ClassicAssert.IsTrue(result.OrderDate==System.DateTime.MinValue && result.OrderNumber==0 && result.OrderItems.Count==0);
         }
 
 
@@ -50,7 +51,7 @@ namespace MMT.UnitTests
             var result = orderRepo.OrderToOrderDTO(order);
 
             //asert
-            Assert.IsTrue(
+            ClassicAssert.IsTrue(
                 result.OrderDate == order.ORDERDATE && 
                 result.OrderNumber == order.ORDERID 
                 );
@@ -68,7 +69,7 @@ namespace MMT.UnitTests
             var result = orderRepo.OrderItemToOrderItemDTO(null);
 
             //asert
-            Assert.IsTrue(result.PriceEach == 0 && result.Product == null && result.Quantity == 0);
+            ClassicAssert.IsTrue(result.PriceEach == 0 && result.Product == null && result.Quantity == 0);
         }
 
 
@@ -92,7 +93,7 @@ namespace MMT.UnitTests
             var result = orderRepo.OrderItemToOrderItemDTO(orderItem);
 
             //asert
-            Assert.IsTrue(
+            ClassicAssert.IsTrue(
                 result.PriceEach == orderItem.PRICE &&
                 result.Quantity == orderItem.QUANTITY
                 );
